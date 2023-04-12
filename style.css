@@ -1,0 +1,38 @@
+.products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+  
+  .product img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .product h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .product p.price {
+    font-size: 18px;
+    color: #c40303;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #c40303;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
